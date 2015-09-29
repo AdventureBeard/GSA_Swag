@@ -9,14 +9,12 @@ angular.module('myApp.view1', ['ngRoute'])
         });
     }])
 
-    .controller('View1Ctrl', ['$scope', function ($scope) {
+    .controller('View1Ctrl', ['$scope', '$timeout', function ($scope, $timeout) {
 
-        $scope.imageSource = "res/blanket.jpg";
         $scope.items = [];
         $scope.prize = "";
         $scope.newItemName = '';
         $scope.newItemAmount = '';
-
 
         $scope.roulette = function () {
             var item = Math.floor(Math.random() * $scope.items.length);
@@ -24,7 +22,7 @@ angular.module('myApp.view1', ['ngRoute'])
             $scope.prize = $scope.items[item].name;
             purgeEmpty();
 
-            setTimeout(function() { $scope.prize = "";}, 3000);
+            $timeout(function() { $scope.prize = ""; }, 5000);
         };
 
         $scope.addItem = function () {
@@ -34,19 +32,19 @@ angular.module('myApp.view1', ['ngRoute'])
                 $scope.newItemAmount = '';
                 document.itemList.itemName.focus();
             }
-
         };
 
-        $scope.subtract = function(item) {
+        $scope.subtract = function (item) {
             item.amount--;
             purgeEmpty();
         };
 
-        var purgeEmpty = function() {
+        var purgeEmpty = function () {
             for (var i = 0; i < $scope.items.length; i++) {
                 if ($scope.items[i].amount <= 0) {
                     $scope.items.splice(i, 1);
                 }
             }
         };
+
     }]);

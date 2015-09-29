@@ -21,21 +21,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/view1/view1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.5318656">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding>
-                <element signature="n#style#0;n#md-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-button#0;n#div#0;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#1;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-input-container#0;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-input-container#1;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-button#0;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-list-item#0;n#md-list#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-button#0;n#div#0;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#md-button#0;n#div#0;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#1;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-input-container#0;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-input-container#1;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-button#0;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-list-item#0;n#md-list#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,17 +46,17 @@
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view1.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view1/view1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11590909">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -64,8 +65,18 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-27.25926">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-material.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/angular-material/angular-material.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,11 +85,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.692308">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state vertical-scroll-proportion="-7.0384617">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1443515410904" expanded="true" signature="1277:1430" placeholder="..." />
+                <marker date="1443515410904" expanded="true" signature="1370:1398" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -89,12 +102,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/app.js" />
-        <option value="$PROJECT_DIR$/app/app.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/view1/view1.html" />
+        <option value="$PROJECT_DIR$/app/app.css" />
+        <option value="$PROJECT_DIR$/app/bower_components/angular-material/angular-material.css" />
+        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/view1/view1.js" />
+        <option value="$PROJECT_DIR$/app/view1/view1.html" />
       </list>
     </option>
   </component>
@@ -106,9 +120,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="833" />
-    <option name="width" value="854" />
-    <option name="height" value="1017" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -182,6 +197,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsa_swag_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GSA_Swag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsa_swag_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GSA_Swag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsa_swag_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GSA_Swag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-material" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,26 +358,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="833" y="0" width="854" height="1017" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44868734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22380953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -343,15 +420,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
           <folding>
-            <element signature="n#style#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#0;n#div#0;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#0;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#1;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#0;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-list-item#0;n#md-list#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#div#0;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#md-button#0;n#div#0;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#0;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#1;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-list-item#0;n#md-list#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -387,6 +465,8 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1443515410904" expanded="true" signature="1277:1430" placeholder="..." />
+            <marker date="1443515410904" expanded="true" signature="1370:1398" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -396,15 +476,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
           <folding>
-            <element signature="n#style#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#0;n#div#0;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#0;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#1;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#0;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-list-item#0;n#md-list#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#div#0;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#md-button#0;n#div#0;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#0;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#1;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-list-item#0;n#md-list#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -440,60 +521,73 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1443515410904" expanded="true" signature="1277:1430" placeholder="..." />
+            <marker date="1443515410904" expanded="true" signature="1370:1398" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view1/view1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#0;n#div#0;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#md-card#0;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#0;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#1;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-button#0;n#div#0;n#form#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-list-item#0;n#md-list#0;n#md-card#1;n#md-content#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.692308">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state vertical-scroll-proportion="-7.0384617">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1443515410904" expanded="true" signature="1277:1430" placeholder="..." />
+            <marker date="1443515410904" expanded="true" signature="1370:1398" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/angular-material/angular-material.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view1/view1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11590909">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.25926">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view1/view1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5318656">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#div#0;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#md-button#0;n#div#0;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#md-card#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#0;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#1;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#div#0;n#form#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-list-item#0;n#md-list#0;n#md-card#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

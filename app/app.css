@@ -52,6 +52,8 @@ img {
   animation-iteration-count: infinite;
 }
 
-html {
+
+
+html, body {
   background: url(http://i.imgur.com/CgrRzHC.png) no-repeat center center fixed;
 }
