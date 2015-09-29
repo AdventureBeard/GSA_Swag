@@ -29,7 +29,7 @@ angular.module('myApp.view1', ['ngRoute'])
                 $timeout(function () {
                     $scope.prize = "";
                     $scope.wait = false;
-                }, 5000);
+                }, 4000);
             }
         };
 
