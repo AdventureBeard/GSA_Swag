@@ -9,7 +9,7 @@ angular.module('myApp.view1', ['ngRoute'])
         });
     }])
 
-    .controller('View1Ctrl', ['$scope', '$timeout', function ($scope, $timeout) {
+    .controller('View1Ctrl', ['$scope', '$timeout', '$mdDialog', function ($scope, $timeout, $mdDialog) {
 
         $scope.items = [];
         $scope.prize = "";
@@ -30,6 +30,8 @@ angular.module('myApp.view1', ['ngRoute'])
                     $scope.prize = "";
                     $scope.wait = false;
                 }, 4000);
+            } else {
+                showMessage();
             }
         };
 
@@ -58,6 +60,16 @@ angular.module('myApp.view1', ['ngRoute'])
                 }
             }
         };
+
+        var showMessage = function () {
+            $mdDialog.show(
+                $mdDialog.alert()
+                    .clickOutsideToClose(true)
+                    .title('You need $WAG, stat!')
+                    .content('Add some swag in the box on the right first.')
+                    .ok('Okie dokes!')
+            );
+        }
 
 
     }]);
