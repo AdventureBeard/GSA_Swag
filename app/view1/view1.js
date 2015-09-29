@@ -18,15 +18,19 @@ angular.module('myApp.view1', ['ngRoute'])
         $scope.wait = false;
 
 
-
         $scope.roulette = function () {
-            $scope.wait = true;
-            var item = Math.floor(Math.random() * $scope.items.length);
-            $scope.items[item].amount--;
-            $scope.prize = $scope.items[item].name;
-            purgeEmpty();
+            if ($scope.items.length > 0) {
+                $scope.wait = true;
+                var item = Math.floor(Math.random() * $scope.items.length);
+                $scope.items[item].amount--;
+                $scope.prize = $scope.items[item].name;
+                purgeEmpty();
 
-            $timeout(function() { $scope.prize = ""; $scope.wait = false; }, 5000);
+                $timeout(function () {
+                    $scope.prize = "";
+                    $scope.wait = false;
+                }, 5000);
+            }
         };
 
         $scope.addItem = function () {
