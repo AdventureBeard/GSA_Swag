@@ -42,9 +42,13 @@ angular.module('myApp.view1', ['ngRoute'])
             }
         };
 
-        $scope.subtract = function (item) {
+        $scope.dec = function (item) {
             item.amount--;
             purgeEmpty();
+        };
+
+        $scope.inc = function (item) {
+            item.amount++;
         };
 
         var purgeEmpty = function () {
