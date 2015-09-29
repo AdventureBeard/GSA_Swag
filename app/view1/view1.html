@@ -8,7 +8,8 @@
             <span flex></span>
             <md-button layout-align="center center" ng-click="roulette()" ng-disabled="wait" class="md-raised md-primary"
                        style="width: 60%; height: 350px">
-                <h1 style="font-size: 10vw">SWAG</h1>
+                <h1 ng-hide="wait" style="font-size: 10vw">SWAG</h1>
+                <h1 ng-show="wait" style="font-size: 10vw">OH YEAH</h1>
             </md-button>
             <span flex></span>
         </div>
