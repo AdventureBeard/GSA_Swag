@@ -1,4 +1,4 @@
-# Google Student Ambassador Swag Generator
+# Google Student Ambassador Swag Roulette
 
 ### Original idea and application by [Ryan Williams](https://github.com/rpwilliams/GoogleSwagGenerator).
 
