@@ -71,6 +71,7 @@ angular.module('myApp.view1', ['ngRoute'])
             );
         };
 
+
         $scope.items.push({name: "Example Item", amount: 1});
 
 
