@@ -66,7 +66,7 @@ angular.module('myApp.view1', ['ngRoute'])
                 $mdDialog.alert()
                     .clickOutsideToClose(true)
                     .title('You need $WAG, stat!')
-                    .content('Add some swag in the box on the right first.')
+                    .content('Add your swag inventory to the box on the right first.')
                     .ok('Okie dokes!')
             );
         };
