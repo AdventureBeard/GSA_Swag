@@ -69,7 +69,9 @@ angular.module('myApp.view1', ['ngRoute'])
                     .content('Add some swag in the box on the right first.')
                     .ok('Okie dokes!')
             );
-        }
+        };
+
+        $scope.items.push({name: "Example Item", amount: 1});
 
 
     }]);
