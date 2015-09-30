@@ -1,44 +1,52 @@
-<div layout="row" layout-align="center" flex="70" style="height:800px; padding-top: 5%;">
+<div layout="row" layout-align="center" flex="70" id="mainLayout">
 
-    <md-card flex="70">
+    <md-card flex="50">
         <md-card-content>
             <img src="http://i.imgur.com/fVkeYRN.png">
-            <h3 style="text-align: center">Press the button and win something neat...</h3>
+
+            <h3 style="text-align: center">PRESS THE BUTTON</h3>
         </md-card-content>
         <div class="md-actions" layout="">
             <span flex></span>
-            <md-button layout-align="center center" ng-click="roulette()" ng-disabled="wait" class="md-raised md-primary"
-                       style="width: 60%; height: 350px">
+            <md-button layout-align="center center" ng-click="roulette()" ng-disabled="wait"
+                       class="md-raised md-primary"
+                       style="width: 75%; height: 350px">
                 <h1 ng-hide="wait" style="font-size: 10vw">SWAG</h1>
-                <h1 ng-show="wait" style="font-size: 10vw">OH YEAH</h1>
+
+                <h1 ng-show="wait" style="font-size: 8vw">OH YEAH</h1>
             </md-button>
             <span flex></span>
         </div>
         <div style="margin: 0 auto; width: 80%">
-            <h1 style="text-align: center; font-size: 5vw" class="animate" > {{ prize | uppercase }} </h1>
+            <h1 style="text-align: center; font-size: 5vw" class="animate"> {{ prize | uppercase }} </h1>
         </div>
     </md-card>
-    <md-card flex="20" max-height="700px" style="overflow-y: auto">
-        <form name="itemList" ng-submit="addItem()">
-            <div layout="row" class="md-padding">
-                <md-input-container style="width: 40%">
-                    <label>Item</label>
-                    <input name="itemName" ng-model="newItemName">
-                </md-input-container>
-                <md-input-container style="width: 20%">
-                    <label>Qty</label>
-                    <input ng-model="newItemAmount">
-                </md-input-container>
-                <md-button ng-click="addItem()" style="">Add Item</md-button>
+
+    <md-card flex="25" style="overflow-y: auto">
+        <md-toolbar class="md-primary">
+            <div class="md-toolbar-tools">
+                <h3>Inventory</h3>
             </div>
-        </form>
+        </md-toolbar>
+        <div class="md-padding" id="inventoryList" layout="row">
+            <form name="itemList" style="" ng-submit="addItem()">
+                <label>Item</label>
+                <input name="itemName" ng-model="newItemName" id="itemNameField">
+                <label>Quantity</label>
+                <input ng-model="newItemAmount" id="itemQuantityField">
+                <md-button ng-click="addItem()" style="float: right">Add</md-button>
+            </form>
+        </div>
         <md-list ng-repeat="item in items">
             <md-list-item style="max-height: 5%">
-                <span flex="50">{{item.name}}</span><span flex></span>
+                <span flex="50" style="margin-left: 6%">{{item.name}}</span><span flex></span>
                 <span flex="30">Qty: {{item.amount}}</span>
                 <button style="padding-left: 2%; width: 25px" ng-click="dec(item)">-</button>
-                <button style="width: 25px;" ng-click="inc(item)">+</button></span>
+                <button style="width: 25px;" ng-click="inc(item)">+</button>
             </md-list-item>
         </md-list>
+
     </md-card>
+
 </div>
+

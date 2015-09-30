@@ -1,59 +1,98 @@
 /* app css stylesheet */
 
+#mainLayout {
+    height: 800px;
+    padding-top: 5%;
+}
+
+#inventoryList {
+    padding-bottom: 6px;
+    padding-top: 6px
+}
+
+.md-input-container {
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+#itemNameField {
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+#itemQuantityField {
+    width: 10%;
+    margin-right: 5%;
+    margin-top: 3%
+}
+
 .menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
 }
 
 .menu:before {
-  content: "[";
+    content: "[";
 }
 
 .menu:after {
-  content: "]";
+    content: "]";
 }
 
 .menu > li {
-  display: inline;
+    display: inline;
 }
 
 .menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
+    content: "|";
+    padding-right: 0.3em;
 }
 
 .menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+    content: "";
+    padding: 0;
 }
 
 img {
-  display: block;
-  max-width:230px;
-  max-height:95px;
-  width: auto;
-  height: auto;
+    display: block;
+    max-width: 230px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
 }
 
 @keyframes example {
-  0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  75% {color: green;}
-  100% {color: red;}
+    0% {
+        color: red;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: green;
+    }
+    100% {
+        color: red;
+    }
 }
 
 /* The element to apply the animation to */
 .animate {
-  animation-name: example;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
-
+form, form div, input {
+    display: inline;
+}
 
 html, body {
-  background: url(http://i.imgur.com/CgrRzHC.png) no-repeat center center fixed;
+    background: url(http://i.imgur.com/CgrRzHC.png) no-repeat center center fixed;
 }
