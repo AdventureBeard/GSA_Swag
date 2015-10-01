@@ -22,7 +22,7 @@
         </div>
     </md-card>
 
-    <md-card flex="25" style="overflow-y: auto">
+    <md-card flex="25" style="">
         <md-toolbar class="md-primary">
             <div class="md-toolbar-tools">
                 <h3>Inventory</h3>
@@ -30,21 +30,32 @@
                 <md-button style="float: right" ng-click="changeMode()">{{ mode }}</md-button>
             </div>
         </md-toolbar>
-        <div class="md-padding" id="inventoryList" layout="row">
-            <form name="itemList" style="" ng-submit="addItem()">
-                <label>Item</label>
-                <input name="itemName" ng-model="newItemName" id="itemNameField">
-                <label>Quantity</label>
-                <input ng-model="newItemAmount" id="itemQuantityField">
-                <md-button ng-click="addItem()" style="float: right">Add</md-button>
-            </form>
-        </div>
+        <md-content>
+            <div style="">
+                <md-input-container flex="50">
+                    <label for="">Item</label>
+                    <input/>
+                </md-input-container>
+            </div>
+            <div style="">
+                <form action="">
+                    <md-input-container>
+                        <input/>
+                    </md-input-container>
+                </form>
+            </div>
+        </md-content>
         <md-list ng-repeat="item in items">
-            <md-list-item style="max-height: 5%">
-                <span flex="50" style="margin-left: 6%">{{item.name}}</span><span flex></span>
-                <span flex="30">Qty: {{item.amount}}</span>
-                <button style="padding-left: 2%; width: 25px" ng-click="dec(item)">-</button>
-                <button style="width: 25px;" ng-click="inc(item)">+</button>
+            <md-list-item class="md-padding" layout="row" style="max-height: 5%">
+                <span flex="40">{{item.name}}</span>
+                <span flex="40">Qty: {{item.amount}}</span>
+
+                <div layout="row" layout-align="center end" flex="10">
+                    <md-button class="md-raised md-primary" style="min-width: 30px;"
+                               ng-click="dec(item)">-
+                    </md-button>
+                    <md-button class="md-raised md-primary" style="min-width: 30px;" ng-click="inc(item)">+</md-button>
+                </div>
             </md-list-item>
         </md-list>
 

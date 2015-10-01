@@ -10,23 +10,6 @@
     padding-top: 6px
 }
 
-.md-input-container {
-    margin-right: 10px;
-    flex-direction: column;
-}
-
-#itemNameField {
-    width: 30%;
-    margin-right: 5%;
-    margin-top: 3%;
-}
-
-#itemQuantityField {
-    width: 10%;
-    margin-right: 5%;
-    margin-top: 3%
-}
-
 .credits {
     padding-left: 7%;
     margin: 0 auto;
@@ -92,10 +75,6 @@ img {
     animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-}
-
-form, form div, input {
-    display: inline;
 }
 
 html, body {

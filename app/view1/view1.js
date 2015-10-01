@@ -16,10 +16,10 @@ angular.module('myApp.view1', ['ngRoute'])
         $scope.newItemName = '';
         $scope.newItemAmount = '';
         $scope.wait = false;
-        $scope.mode = "Equal Probability Mode";
+        $scope.mode = "Equal Odds Mode";
 
         $scope.spin = function () {
-            if ($scope.mode === "Equal Probability Mode") {
+            if ($scope.mode === "Equal Odds Mode") {
                 typeRoulette();
             } else {
                 quantityRoulette();
@@ -27,10 +27,10 @@ angular.module('myApp.view1', ['ngRoute'])
         };
 
         $scope.changeMode = function () {
-            if ($scope.mode === "Equal Probability Mode") {
-                $scope.mode = "Variable Probability Mode";
+            if ($scope.mode === "Equal Odds Mode") {
+                $scope.mode = "Variable Odds Mode";
             } else {
-                $scope.mode = "Equal Probability Mode";
+                $scope.mode = "Equal Odds Mode";
             }
         };
 
