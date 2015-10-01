@@ -27,6 +27,11 @@
     margin-top: 3%
 }
 
+.credits {
+    padding-left: 7%;
+    margin: 0 auto;
+}
+
 .menu {
     list-style: none;
     border-bottom: 0.1em solid black;

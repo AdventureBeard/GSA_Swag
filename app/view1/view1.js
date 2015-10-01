@@ -16,14 +16,67 @@ angular.module('myApp.view1', ['ngRoute'])
         $scope.newItemName = '';
         $scope.newItemAmount = '';
         $scope.wait = false;
+        $scope.mode = "Equal Probability Mode";
 
-        $scope.roulette = function () {
+        $scope.spin = function () {
+            if ($scope.mode === "Equal Probability Mode") {
+                typeRoulette();
+            } else {
+                quantityRoulette();
+            }
+        };
+
+        $scope.changeMode = function () {
+            if ($scope.mode === "Equal Probability Mode") {
+                $scope.mode = "Variable Probability Mode";
+            } else {
+                $scope.mode = "Equal Probability Mode";
+            }
+        };
+
+        var typeRoulette = function () {
             if ($scope.items.length > 0) {
                 $scope.wait = true;
                 var item = Math.floor(Math.random() * $scope.items.length);
                 $scope.items[item].amount--;
                 $scope.prize = $scope.items[item].name;
                 var test = $scope.items[item];
+                purgeEmpty();
+
+                $timeout(function () {
+                    $scope.prize = "";
+                    $scope.wait = false;
+                }, 4000);
+                return test;
+            } else {
+                showMessage();
+            }
+        };
+
+        // Forgive me father, for I have sinned.
+        var quantityRoulette = function () {
+            if ($scope.items.length > 0) {
+                $scope.wait = true;
+                var prizePile = [];
+
+                for (var i = 0; i < $scope.items.length; i++) {
+                    for (var j = 0; j < $scope.items[i].amount; j++) {
+                        prizePile.push($scope.items[i]);
+                    }
+                }
+
+                console.log("The prize pile contains " + prizePile.length + " items.");
+                var item = Math.floor(Math.random() * prizePile.length);
+                var prize = prizePile[item];
+                var test;
+
+                for (var k = 0; k < $scope.items.length; k++) {
+                    if ($scope.items[k].name === prize.name) {
+                        test = $scope.items[k];
+                        $scope.items[k].amount--;
+                    }
+                }
+                $scope.prize = prize.name;
                 purgeEmpty();
 
                 $timeout(function () {
@@ -73,7 +126,7 @@ angular.module('myApp.view1', ['ngRoute'])
         };
 
 
-        var test = function (items, iterations) {
+        var test = function (items, iterations, rouletteFunction) {
             console.log("----------------BEGIN TEST---------------\n");
             console.log("Testing " + items + " items for " + iterations + " iterations.");
             var results = [];
@@ -83,7 +136,7 @@ angular.module('myApp.view1', ['ngRoute'])
                 results.push({name: testCase, chosen: 0});
             }
             for (var j = 0; j < iterations; j++) {
-                var t = $scope.roulette();
+                var t = rouletteFunction();
                 for (var m = 0; m < results.length; m++) {
                     if (results[m].name === t.name) {
                         results[m].chosen++;
@@ -98,11 +151,6 @@ angular.module('myApp.view1', ['ngRoute'])
         };
 
 
-        //test(1, 10000);
-        //test(2, 100);
-        //test(2, 1000);
-        //test(2, 10000);
-        //test(15, 100);
         $scope.items.push({name: "Example Item", amount: 1});
 
 

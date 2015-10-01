@@ -1,6 +1,6 @@
 <div layout="row" layout-align="center" flex="70" id="mainLayout">
 
-    <md-card flex="50">
+    <md-card flex="60">
         <md-card-content>
             <img src="http://i.imgur.com/fVkeYRN.png">
 
@@ -8,7 +8,7 @@
         </md-card-content>
         <div class="md-actions" layout="">
             <span flex></span>
-            <md-button layout-align="center center" ng-click="roulette()" ng-disabled="wait"
+            <md-button layout-align="center center" ng-click="spin()" ng-disabled="wait"
                        class="md-raised md-primary"
                        style="width: 75%; height: 350px">
                 <h1 ng-hide="wait" style="font-size: 10vw">SWAG</h1>
@@ -26,6 +26,8 @@
         <md-toolbar class="md-primary">
             <div class="md-toolbar-tools">
                 <h3>Inventory</h3>
+                <span flex></span>
+                <md-button style="float: right" ng-click="changeMode()">{{ mode }}</md-button>
             </div>
         </md-toolbar>
         <div class="md-padding" id="inventoryList" layout="row">
