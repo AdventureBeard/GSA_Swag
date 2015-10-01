@@ -1,5 +1,4 @@
 <div layout="row" layout-align="center" flex="70" id="mainLayout">
-
     <md-card flex="60">
         <md-card-content>
             <img src="http://i.imgur.com/fVkeYRN.png">
@@ -11,14 +10,11 @@
             <md-button layout-align="center center" ng-click="spin()" ng-disabled="wait"
                        class="md-raised md-primary"
                        style="width: 75%; height: 350px">
-                <h1 ng-hide="wait" style="font-size: 10vw">SWAG</h1>
+                <h1 ng-hide="wait" style="font-size: 10vw" >SWAG</h1>
 
-                <h1 ng-show="wait" style="font-size: 8vw">OH YEAH</h1>
+                <h1 ng-show="wait" style="font-size: 4vw" class="animate">{{ prize | uppercase }}</h1>
             </md-button>
             <span flex></span>
-        </div>
-        <div style="margin: 0 auto; width: 80%">
-            <h1 style="text-align: center; font-size: 5vw" class="animate"> {{ prize | uppercase }} </h1>
         </div>
     </md-card>
 
@@ -40,7 +36,9 @@
                     <label>Quantity</label>
                     <input ng-model="newItemAmount">
                 </md-input-container>
-                <md-button ng-click="addItem()" flex="25" style="min-width: 60px">Add</md-button>
+                <div flex="30" style="text-align: center">
+                    <md-button  ng-click="addItem()" style="min-width: 60px; margin-top: 20px">Add</md-button>
+                </div>
             </div>
         </form>
         <md-list ng-repeat="item in items">
